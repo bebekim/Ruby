@@ -1,7 +1,5 @@
-puts 'Hello there, what is your first name?'
-firstname = gets.chomp
-puts 'and your last name is?'
-lastname = gets.chomp
-name = lastname + ', ' + firstname
-puts 'Your name is ' + name + '?'
-puts 'Pleased to meet you, ' + name + '.'
+puts 'what is your full name?'
+name = gets.chomp #chomp gets rid of 'return'
+puts 'did you know there are ' + name.length.to_s + ' characters in your name,' + name
+#name.legnth.to_s instead of name.length because name is a string and if you conversion stops at name.length, it is no longer consistent with original format which is string.
+puts 'Your name spelled backward is,' + name.reverse
