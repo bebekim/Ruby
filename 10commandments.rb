@@ -1,0 +1,11 @@
+line_width = 70
+puts ('1. Thou shalt have no other gods before me.'.center(line_width))
+puts ('2. Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth.'.center(line_width))
+puts ('3. Thou shalt not take the name of the Lord thy God in vain;'.center(line_width))
+puts ('4. Remember the sabbath day, to keep it holy.'.center(line_width))
+puts ('5. Honour thy father and thy mother: '.center(line_width))
+puts ('6. Thou shalt not kill.'.center(line_width))
+puts ('7. Thou shalt not commit adultery.'.center(line_width))
+puts ('8. Thou shalt not steal.'.center(line_width))
+puts ('9. Thou shalt not bear false witness against thy neighbour.'.center(line_width))
+puts ('10. Thou shalt not covet.'.center(line_width))
