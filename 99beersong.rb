@@ -15,7 +15,7 @@ while true
   end
   puts '(Is this beers on the wall song annoying to you?)'
   input = gets.chomp
-  if (input == 'yes')
+  if (input == 'yes' || 'Yes')
     # avoid breaking out of while loop
     puts 'No more bottles of beer on the wall, no more bottles of beer.'
     puts 'Go to the store and buy some more, 99 bottles of beer on the wall.'
