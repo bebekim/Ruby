@@ -1,8 +1,3 @@
-[]
-[5]
-['Hello', 'Goodbye']
-flavor = 'vanilla'
-[89.0, flavor, [true, false]] #variables are not objects so this array is POINTING to a float, string, and an array
 
 languages = ['English', 'Korean', 'Ruby']
 languages.each do |lang|
@@ -26,3 +21,6 @@ puts foods.join(', ')
 puts
 puts foods.join(' :) ') + ' 8) '
 puts
+flavor = 'vanilla'
+array = ['89.0', flavor, [true, false]] #variables are not objects so this array is POINTING to a float, string, and an array
+puts array
